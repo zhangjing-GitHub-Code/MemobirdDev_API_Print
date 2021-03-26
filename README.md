@@ -1,5 +1,5 @@
 # MemobirdDev_API_Print
-##content
+## content
 Introduction
 How to use
-###Introduction
+### Introduction
