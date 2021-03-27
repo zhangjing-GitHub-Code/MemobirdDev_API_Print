@@ -1,7 +1,6 @@
 # MemobirdDev_API_Print
 ## content
-[Introduction](#Introduction)\
-[How to use](#How%20to%20use)
+[TOC]
 ### Introduction
 (My English is not very good qwq, I'm a Chinese.)\
 It can print paper by memobird thermal printer via memobird Dev API.\
