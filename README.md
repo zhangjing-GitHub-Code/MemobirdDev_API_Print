@@ -4,7 +4,7 @@ Introduction
 How to use
 ### Introduction
 (My English is not very good qwq, I'm a Chinese.)  
-It can print paper by memobird thermal printer via memobird Dev API.  
+It can print paper by memobird thermal printer via memobird Dev API.\
 It's not can be used now. I'm writing it  qwq.  
 ### How to use
 1.Make sure you registed a Memobird Dev account and bound to your memobird printer.  
