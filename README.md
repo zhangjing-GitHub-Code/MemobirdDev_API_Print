@@ -9,7 +9,7 @@ It's not can be used now. I'm writing it  qwq.
 ### How to use
 1.Make sure you registed a Memobird Dev account and bound to your memobird printer.  
 2.Create a file `memobird.ini` and fill it like :\
-  -  The first line is your ak(access key).\
+  - The first line is your ak(access key).\
   - The second line is your user ID number.\
   - The third line is your device equipment number.\
   example :
