@@ -18,4 +18,4 @@ It's not can be used now. I'm writing it  qwq.\
 5861578
 fb93bfff504c020a
 ```
-3.Run complied file and enter what you want to print.
+3.Run complied file in the same directory of `memobird.ini` and enter what you want to print.
