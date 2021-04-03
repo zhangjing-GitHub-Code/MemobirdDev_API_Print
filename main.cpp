@@ -5,15 +5,15 @@ string getExeStr() {
 	string _exe = "https://open.memobird.cn/home/printpaper?ak=";
 	string ak,uid,devid;
 	try{
-		ifstream conf;
-		conf.open("Memobird.ini");
-		//getline(conf,ak);
-		//getline(conf,uid);
-		//getline(conf,devid);
-		conf >> ak;
-		conf >> uid;
-		conf >> devid;
-		conf.close();
+		ifstream confi("Memobird.ini");
+		getline(confi,ak);
+		getline(confi,uid);
+		getline(confi,devid);
+		//cout << ak << uid << devid;
+		//conf >> ak;
+		//conf >> uid;
+		//conf >> devid;
+		//conf.close();
 	}catch(exception *){
 		throw("config file wrong, please check your format!");
 	}
@@ -26,7 +26,7 @@ string getExeStr() {
 }
 int main(){
 	string webv=getExeStr();
-	cout << webv;
+	cout << webv << endl;
 	system("pause");
 	return 0;
 }
