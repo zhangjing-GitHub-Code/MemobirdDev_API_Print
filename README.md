@@ -11,8 +11,8 @@ It's not can be used now. I'm writing it  qwq.
 2.Create a file `memobird.ini` and fill it like :
   - The first line is your ak(access key).
   - The second line is your user ID.
-  - The third line is your device equipment number.
-  \example :
+  - The third line is your device equipment number.  
+ example :
 ```
 698d51a19d8a121ce581499d7b701668
 5861578
