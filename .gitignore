@@ -1,5 +1,6 @@
 *.cbp
-*.layout*
+*.layout
+*.layout.bak
 # Prerequisites
 *.d
 
