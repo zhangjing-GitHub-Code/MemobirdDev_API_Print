@@ -19,4 +19,4 @@ Its python version are available now. I think C++ is difficult to write (OvO) an
 5861578
 fb93bfff504c020a
 ```
-3.Run ~~complied file (or~~ python file: `python main.py` ~~) ~~ in the same directory of `memobird.ini` and enter what you want to print(add colorful prompt and see help via `python main.py -h`.
+3.Run ~~complied file (or~~ python file: `python main.py` ~~)~~ in the same directory of `memobird.ini` and enter what you want to print(add colorful prompt and see help via `python main.py -h`.
