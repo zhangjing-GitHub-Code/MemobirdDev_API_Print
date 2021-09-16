@@ -14,7 +14,7 @@ def read(fname):
     fo=open(fname)
     return fo.read()
 def getconf(config="Memobird.ini"):
-    exe="http://open.memobird.cn/home/printpaper?ak="
+    exe="http://open.memobird.cn/home/printpaper?ak\\="
     ak=""
     uid=""
     devid=""
@@ -33,14 +33,14 @@ def getconf(config="Memobird.ini"):
         exit()
     exe += ak
     if isunix:
-        exe += "&userID="
+        exe += "\\&userID\\="
     else :
-        exe += "&userID="
+        exe += "\\&userID="
     exe += uid
     if isunix:
-        exe += "&memobirdID="
+        exe += "\\&memobirdID\\="
     else :
-        exe += "&memobirdID="
+        exe += "\\&memobirdID="
     exe += devid
     return exe
 
@@ -59,13 +59,13 @@ def main(needstr=0,printstr=""):
     #enced=os.popen("echo \"%s\" > preenc && base64 preenc&&rm preenc"%unenc).read()
     enced=base64.b64encode(unenc.encode('gbk'))
     if isunix:
-        exe+="&timestamp="+time.strftime("%Y-%m-%d%{}%H:%M:%S".format("%20"),time.localtime())
+        exe+="\\&timestamp\\="+time.strftime("%Y-%m-%d%{}%H:%M:%S".format("%20"),time.localtime())
     else :
-        exe+="&timestamp="+time.strftime("%Y-%m-%d%{}%H:%M:%S".format("%20"),time.localtime())
+        exe+="\\&timestamp="+time.strftime("%Y-%m-%d%{}%H:%M:%S".format("%20"),time.localtime())
     if isunix:
-        exe+="&printcontent=T:"+enced.decode()
+        exe+="\\&printcontent\\=T:"+enced.decode()
     else :
-        exe+="&printcontent=T:"+enced.decode()
+        exe+="\\&printcontent=T:"+enced.decode()
     print(exe)
     if os.system("termux-wifi-scaninfo")==0:
         jso=os.popen("termux-dialog confirm -t \"Do you really want to print?\" -i \"1000 API calls per day and %s left\"").read()
